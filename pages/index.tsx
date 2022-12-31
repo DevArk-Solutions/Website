@@ -17,7 +17,7 @@ export default function Home() {
         <Image
           src="/logo.svg"
           alt="DevArk Solutions Logo"
-          width={"3xs"}
+          width={"xs"}
           mt="2"
         />
       </Flex>
