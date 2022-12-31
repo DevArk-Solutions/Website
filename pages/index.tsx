@@ -12,7 +12,13 @@ import {
 
 export default function Home() {
   return (
-    <Stack height={"100vh"}>
+    <Stack
+      height={"100vh"}
+      style={{
+        background:
+          "linear-gradient(200deg, rgba(166, 180, 200, 0.7) -7.37%, rgba(255, 255, 255, 0) 75.6%)",
+      }}
+    >
       <Flex gap={"sm"} justify={"center"}>
         <Image
           src="/logo.svg"
