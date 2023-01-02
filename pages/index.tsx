@@ -42,11 +42,11 @@ export default function Home() {
                 </div>
                 <div className="text-center w-42">
                     <h2 className="font-bold">Registered Address:</h2>
-                    <p className="text-sm">DevArk Solutions Limited</p>
+                    <p className="text-sm">DevArk Solutions Limited,</p>
                     <p className="text-sm">
-                        Henleaze Business Centre, Harbury Road
+                        Henleaze Business Centre, Harbury Road,
                     </p>
-                    <p className="text-sm">Bristol</p>
+                    <p className="text-sm">Bristol,</p>
                     <p className="text-sm">BS9 4PN</p>
                 </div>
             </footer>
