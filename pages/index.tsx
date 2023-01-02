@@ -1,45 +1,36 @@
-import {
-  Box,
-  Center,
-  Container,
-  Flex,
-  Heading,
-  Image,
-  Link,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import Image from "next/image";
 
 export default function Home() {
-  return (
-    <Stack
-      height={"100vh"}
-      style={{
-        background:
-          "linear-gradient(200deg, rgba(166, 180, 200, 0.7) -7.37%, rgba(255, 255, 255, 0) 75.6%)",
-      }}
-    >
-      <Flex gap={"sm"} justify={"center"}>
-        <Image
-          src="/logo.svg"
-          alt="DevArk Solutions Logo"
-          width={"xs"}
-          mt="2"
-        />
-      </Flex>
-      <Flex height={"full"}>
-        <Box textAlign={"center"} m="auto">
-          <Heading size={"2xl"} mb="2">
-            Coming Soon
-          </Heading>
-          <Text mb="2">
-            If you would like to get in contact, please use the email below.
-          </Text>
-          <Link color={"teal.500"} href="mailto:contact@devarksolutions.com">
-            contact@devarksolutions.com
-          </Link>
-        </Box>
-      </Flex>
-    </Stack>
-  );
+    return (
+        <main
+            className="overflow-hidden h-screen"
+            style={{
+                background:
+                    "linear-gradient(200deg, rgba(166, 180, 200, 0.7) -7.37%, rgba(255, 255, 255, 0) 75.6%)",
+            }}
+        >
+            <div className="flex justify-center grow mt-2">
+                <img
+                    src="/logo.svg"
+                    alt="DevArk Solutions Logo"
+                    className="px-2 md:w-1/3"
+                />
+            </div>
+            <div className="h-full flex justify-center items-center">
+                <div className="text-center px-4">
+                    <h1 className="text-5xl font-bold mb-3">Coming Soon</h1>
+                    <p>
+                        If you would like to get in contact, please use the
+                        email below.
+                    </p>
+                    <a
+                        className="text-violet-600 hover:text-violet-400"
+                        href="mailto:contact@devarksolutions.com"
+                    >
+                        contact@devarksolutions.com
+                    </a>
+                </div>
+            </div>
+        </main>
+    );
 }
