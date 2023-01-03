@@ -38,7 +38,21 @@ export default function Home() {
                     <h2 className="font-bold">Contact Us:</h2>
                     <p className="text-sm">
                         <span className="text-bold">Email:</span>{" "}
-                        contact@devarksolutions.com
+                        <a
+                            className="text-violet-600 hover:text-violet-400"
+                            href="mailto:contact@devarksolutions.com"
+                        >
+                            contact@devarksolutions.com
+                        </a>
+                    </p>
+                    <p className="text-sm">
+                        <span className="text-bold">LinkedIn:</span>{" "}
+                        <a
+                            className="text-violet-600 hover:text-violet-400"
+                            href="https://www.linkedin.com/company/devark-solutions"
+                        >
+                            Link
+                        </a>
                     </p>
                 </div>
                 <div className="text-center w-42 text-sm">
