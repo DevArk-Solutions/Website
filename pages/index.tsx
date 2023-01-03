@@ -14,7 +14,7 @@ export default function Home() {
                     <img
                         src="/logo.svg"
                         alt="DevArk Solutions Logo"
-                        className="px-2 sm:h-10 md:h-16 lg:h-20"
+                        className="px-4 sm:h-10 md:h-16 lg:h-20"
                     />
                 </div>
                 <div className="h-full flex justify-center items-center">
@@ -33,21 +33,20 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-            <footer className="flex bg-slate-800 text-slate-100 p-4 justify-evenly">
-                <div className="text-center w-min">
+            <footer className="flex bg-slate-800 text-slate-100 p-8 justify-evenly flex-col md:flex-row  gap-4">
+                <div className="text-center w-42">
                     <h2 className="font-bold">Contact Us:</h2>
                     <p className="text-sm">
-                        Email: contact@devarksolutions.com
+                        <span className="text-bold">Email:</span>{" "}
+                        contact@devarksolutions.com
                     </p>
                 </div>
-                <div className="text-center w-42">
-                    <h2 className="font-bold">Registered Address:</h2>
-                    <p className="text-sm">DevArk Solutions Limited,</p>
-                    <p className="text-sm">
-                        Henleaze Business Centre, Harbury Road,
-                    </p>
-                    <p className="text-sm">Bristol,</p>
-                    <p className="text-sm">BS9 4PN</p>
+                <div className="text-center w-42 text-sm">
+                    <h2 className="font-bold text-md">Registered Address:</h2>
+                    <p>DevArk Solutions Limited,</p>
+                    <p>Henleaze Business Centre, Harbury Road,</p>
+                    <p>Bristol,</p>
+                    <p>BS9 4PN</p>
                 </div>
             </footer>
         </>
