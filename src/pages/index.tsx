@@ -21,6 +21,7 @@ export default function Home() {
                     <div className="text-center px-4 -mt-20">
                         <h1 className="text-5xl font-bold mb-3">Coming Soon</h1>
                         <p>
+                            {" "}
                             If you would like to get in contact, please use the
                             email below.
                         </p>
