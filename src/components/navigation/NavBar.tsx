@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import ComponentWithChildren from "../types/ComponentWithChildren";
+import ComponentWithChildren from "../../types/ComponentWithChildren";
 import { NavLink } from "./NavLink";
 import { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import { Transition } from "@headlessui/react";
+import { LinkButton } from "./LinkButton";
 
 const NavBarContent: ComponentWithChildren = () => {
     return (
@@ -15,7 +16,7 @@ const NavBarContent: ComponentWithChildren = () => {
             <NavLink href={"/packages"}>Packages</NavLink>
             <NavLink href={"/blog"}>Blog</NavLink>
             <NavLink href={"/case-studies"}>Case Studies</NavLink>
-            <NavLink href={"/contact"}>Contact Us</NavLink>
+            <LinkButton href="/contact">Contact us</LinkButton>
         </>
     );
 };

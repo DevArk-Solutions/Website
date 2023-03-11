@@ -1,7 +1,7 @@
 import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
-import ComponentWithChildren from "../types/ComponentWithChildren";
+import ComponentWithChildren from "../../types/ComponentWithChildren";
 
 export const NavLink: ComponentWithChildren<{
     linkProps?: Omit<LinkProps, "href">;

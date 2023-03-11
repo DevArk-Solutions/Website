@@ -8,12 +8,14 @@ export const DefaultLayout: ComponentWithChildren<{
     return (
         <>
             <header
-                className={"container py-6 mx-auto border-b border-slate-400"}
+                className={"container mx-auto border-b border-slate-400 py-6"}
             >
                 {header}
             </header>
-            <main className={"container mx-auto min-h-screen"}>{children}</main>
-            <footer className={"w-screen h-32 bg-slate-800"}>{footer}</footer>
+            <main className={"container min-h-screen px-2 sm:mx-auto"}>
+                {children}
+            </main>
+            <footer className={"h-32 w-screen bg-slate-900"}>{footer}</footer>
         </>
     );
 };
