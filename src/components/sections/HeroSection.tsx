@@ -23,10 +23,12 @@ export const HeroSection: ComponentWithChildren = () => {
 
     return (
         <section
-            className={"relative mt-32 w-full pb-16 lg:mt-16 lg:pb-96"}
+            className={
+                "relative mx-auto mt-16 w-full max-w-screen-xl pb-16 lg:pb-96"
+            }
             ref={outerRef}
         >
-            <div className={"relative z-10 max-w-lg"}>
+            <div className={"relative z-10 max-w-lg pl-8 "}>
                 <p className={"subtitle"}>Software Development Agency</p>
                 <h1 className={"title mt-4"}>
                     We are a top-notch development agency.

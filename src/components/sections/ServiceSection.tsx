@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 export const ServiceSection: ComponentWithChildren = () => {
     return (
         <section className={"relative mt-16 w-full"}>
-            <div className={"max-w-3xl"}>
+            <div className={"mx-auto max-w-screen-xl px-4"}>
                 <p className={"subtitle"}>Our Services</p>
                 <h1 className={"title mt-4"}>
                     We are development experts on all technologies & platforms.
