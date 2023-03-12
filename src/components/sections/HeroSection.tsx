@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ComponentWithChildren from "../../types/ComponentWithChildren";
 import { LinkButton } from "../navigation/LinkButton";
+import HeroImage from "../svgs/HeroImage";
 
 export const HeroSection: ComponentWithChildren = () => {
     const outerRef = useRef<HTMLDivElement>(null);
@@ -46,15 +47,14 @@ export const HeroSection: ComponentWithChildren = () => {
                 </div>
             </div>
             <div
-                className={"absolute bottom-0 right-0 hidden lg:inline-block"}
+                className={
+                    "absolute top-0 left-0 hidden h-full w-full lg:inline-block"
+                }
                 ref={innerRef}
             >
-                <Image
-                    src={"/img/hero.svg"}
-                    width={700}
-                    height={500}
-                    alt={""}
-                />
+                <div className={"absolute bottom-0 right-0 h-full w-full"}>
+                    <HeroImage />
+                </div>
             </div>
         </section>
     );
