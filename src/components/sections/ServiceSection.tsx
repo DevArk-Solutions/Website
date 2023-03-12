@@ -2,8 +2,8 @@ import ComponentWithChildren from "../../types/ComponentWithChildren";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { TemplateCard } from "../cards/TemplateCard";
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
+import "swiper/swiper.min.css";
+
 import FrontendIconImage from "../svgs/FrontendIconImage";
 import BackendIconImage from "../svgs/BackendIconImage";
 import WebAppIconImage from "../svgs/WebAppIconImage";
