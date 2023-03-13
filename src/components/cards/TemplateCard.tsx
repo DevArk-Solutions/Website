@@ -11,7 +11,7 @@ export const TemplateCard: ComponentWithChildren<{
     return (
         <div
             className={
-                "flex  h-[500px] min-w-[300px] flex-col items-center gap-4 overflow-hidden rounded-3xl border-[0.5px] border-slate-400 bg-white px-8 py-10 text-center shadow-lg"
+                "flex  h-[500px] min-w-[350px] max-w-[400px] flex-col items-center gap-4 overflow-hidden rounded-3xl border-[0.5px] border-slate-400 bg-white px-8 py-10 text-center shadow-lg"
             }
         >
             <div className="">{image}</div>
