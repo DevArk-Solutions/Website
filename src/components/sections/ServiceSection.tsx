@@ -1,7 +1,5 @@
 import ComponentWithChildren from "../../types/ComponentWithChildren";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { TemplateCard } from "../cards/TemplateCard";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import FrontendIconImage from "../svgs/FrontendIconImage";
 import BackendIconImage from "../svgs/BackendIconImage";
@@ -28,6 +26,7 @@ export const ServiceSection: ComponentWithChildren = () => {
                 emulateTouch
                 showStatus={false}
                 showIndicators={false}
+                showThumbs={false}
             >
                 <TemplateCard
                     title="Frontend Development"

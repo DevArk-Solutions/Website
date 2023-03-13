@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -7,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>DevArk Solutions - Coming Soon</title>
+                <title>DevArk Solutions</title>
                 <meta
                     name="description"
                     content="First Class Software Development and Consultancy"
