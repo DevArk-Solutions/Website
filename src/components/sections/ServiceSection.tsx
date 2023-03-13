@@ -13,7 +13,7 @@ import CloudServerIconImage from "../svgs/CloudServerIconImage";
 
 export const ServiceSection: ComponentWithChildren = () => {
     return (
-        <section className={"relative mt-16 w-full"}>
+        <section className={"relative mt-4 w-full"}>
             <div className={"mx-auto max-w-screen-xl px-4"}>
                 <p className={"subtitle"}>Our Services</p>
                 <h1 className={"title mt-4"}>
@@ -21,7 +21,7 @@ export const ServiceSection: ComponentWithChildren = () => {
                 </h1>
             </div>
             <Swiper
-                className="mt-8 px-4 md:px-0"
+                className="mt-6 px-4 md:px-0"
                 centeredSlides={true}
                 breakpoints={{
                     320: {
