@@ -21,7 +21,7 @@ export const ServiceSection: ComponentWithChildren = () => {
                 </h1>
             </div>
             <Swiper
-                className="mt-4 px-4 md:px-0"
+                className="mt-8 px-4 md:px-0"
                 centeredSlides={true}
                 breakpoints={{
                     320: {

@@ -31,15 +31,15 @@ export const HeroSection: ComponentWithChildren = () => {
         >
             <div className={"relative z-10 max-w-lg pl-8 "}>
                 <p className={"subtitle"}>Software Development Agency</p>
-                <h1 className={"title mt-4"}>
+                <h1 className={"title mt-6"}>
                     We are a top-notch development agency.
                 </h1>
-                <p className={"mt-8 tracking-tight text-gray-600"}>
+                <p className={"mt-6 tracking-tight text-gray-600"}>
                     We are a software development and consultancy company that
                     specializes in delivering custom software solutions to help
                     businesses of all sizes achieve their goals.
                 </p>
-                <div className="mt-4 flex  space-x-4">
+                <div className="mt-6 flex gap-4">
                     <LinkButton href="/contact">Contact us</LinkButton>
                     <LinkButton style="secondary" href="/services">
                         Our Services
